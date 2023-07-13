@@ -1,0 +1,38 @@
+.Main_container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  width: 100px;
+  background-color: gray;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Drop {
+  width: 500px;
+  border: 2px dotted white;
+  display: flex;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  min-height: 300px;
+}
+.droppedItems {
+  width: 100px;
+  background-color: gray;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 100px;
+  color: white;
+}
